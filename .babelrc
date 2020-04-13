@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/transform-runtime",
+    [
+      "module-resolver", {
+      "root": ["."]
+    }
+    ]
+  ]
+}

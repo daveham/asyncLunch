@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "babel"
+  ],
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "Promise": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "padded-blocks": 0,
+    "space-before-function-paren": 0,
+    "jsx-quotes": [2, "prefer-single"],
+    "generator-star-spacing": "off",
+    "yield-star-spacing": "off",
+    "no-console": 0
+  }
+}
