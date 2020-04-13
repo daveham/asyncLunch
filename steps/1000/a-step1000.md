@@ -1,20 +1,29 @@
-# Why Async? (Or, Why is JavaScript Single-threaded?)
+# Why Is JavaScript So Async?
 
-## Multi-threaded programming is hard to get right
+## JavaScript is Single-Threaded
+
+> Only one thing can happen at a time, on a single main thread,
+> and everything else is blocked until an operation completes.
+
+<br/>
+
+### Multi-threaded programming is hard to get right
 * Managing shared data
 * Synchronization
 
-## Many threads means
+### Many threads means
 *  many execution stacks -> memory
 * context switching -> CPU
 
 <br/><br/>
 
-## Browsers
+## JavaScript Hosts
+
+### Browsers
 * Load quickly (or appear to) - manage network requests, render early
 * Smooth interaction -> responsive to events
 
-## Node
+### Node
 * Optimize for I/O
 * Maximize throughput (getting work done)
 
@@ -37,7 +46,9 @@ db.query('select...', (result) => {
 
 <br/>
 
-## JavaScript ideal language for both environments
+## JavaScript is an "ideal" language for both environments
 * Designed for event programming
 * Closures
 * Anonymous functions
+
+<br/><br/>

@@ -1,5 +1,3 @@
-# Getting Work Done
-
 ## If written in a blocking language (python):
 
 ```python

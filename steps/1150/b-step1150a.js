@@ -1,8 +1,8 @@
+
+
 const helper = (left, right, cb) => {
   const sum = left + right;
-  setTimeout(() => {
-    cb(sum);
-  }, 0);
+  cb(sum);
 };
 
 function addition() {

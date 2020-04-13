@@ -1,5 +1,14 @@
 # Event Loop
 
+JavaScript has a concurrency model based on an event loop.
+- execute code
+- collect and process events
+- execute queued tasks
+
+## Simplified Model
+
+The event loop implementations in modern JavaScript engines and in node are much more complex and optimized.
+
 #### Current Execution
 * frame - the entry point to a function, including arguments and local variables
 

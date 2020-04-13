@@ -39,3 +39,15 @@ function addition() {
 ```
 
 <br/><br/><br/>
+
+## Not all callbacks are async
+
+```javascript
+const data = ['one', 'two', 'three'];
+
+const allCaps = data.map((item) => {
+  item.toUpperCase()
+});
+```
+
+<br/><br/><br/>
