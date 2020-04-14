@@ -20,6 +20,8 @@ const myPromise = new Promise((resolve, reject) => {
 });
 ```
 
+[demo](b-step1300a.js)
+
 <br/><br/><br/>
 
 ## Getting the Results
@@ -42,6 +44,8 @@ myPromise
   .catch((err) => console.log('my promise errored', err));
 ```
 
+[demo](b-step1300b.js)
+
 <br/><br/><br/><br/><br/>
 
 ## And Finally
@@ -54,6 +58,8 @@ myPromise
   .catch((err) => console.log('my promise errored', err))
   .finally(() => console.log('good or bad, I am here'));
 ```
+
+[demo](b-step1300c.js)
 
 <br/><br/><br/><br/><br/><br/><br/>
 
@@ -72,6 +78,11 @@ myPromise
   .finally(() => console.log('good or bad, I am here'));
 ```
 
+[demo](b-step1300d.js)
+<br/>
+[demo](b-step1300e.js)
+
+
 <br/><br/><br/><br/><br/><br/><br/>
 
 ## Promises can run in Parallel
@@ -88,7 +99,9 @@ Promise.all([
   .then((resultsArray) => {
     console.log('length of results array', resultsArray.length);
   });
-
 ```
 
+[demo](b-step1300f.js)
+
 <br/><br/><br/><br/><br/>
+[next](../1500/a-step1500.md)

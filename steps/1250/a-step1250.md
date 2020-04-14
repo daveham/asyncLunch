@@ -14,6 +14,8 @@ function caller() {
 }
 ```
 
+[demo](b-step1250a.js)
+
 <br/><br/><br/>
 
 ## Node-style
@@ -36,8 +38,11 @@ function caller() {
   nodeStyleHelper('hello', );
 }
 ```
+[demo](b-step1250a.js)
 
 One of the benefits of this style is that the callback doesn't have to decide the severity of the error.
 It is up to the caller to decide to throw an exception or handle the error in some other way.
 
 <br/><br/><br/>
+
+[next](../1260/a-step1260.md)

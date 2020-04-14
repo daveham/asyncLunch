@@ -26,6 +26,8 @@ function caller() {
 }
 ```
 
+[demo](b-step1260a.js)
+
 
 ## Node-Style Callbacks
 
@@ -60,3 +62,9 @@ function caller() {
   });
 }
 ```
+
+[demo](b-step1260a.js)
+
+<br/>
+
+[next](../1300/a-step1300.md)

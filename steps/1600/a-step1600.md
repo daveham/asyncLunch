@@ -38,6 +38,8 @@ async function simple() {
 simple.then((data) => console.log(data));
 ```
 
+[demo](b-step1600a.js)
+
 <br/><br/><br/><br/><br/>
 
 ## Await
@@ -60,6 +62,8 @@ async function consumer() {
   console.log('after');
 }
 ```
+
+[demo](b-step1600b.js)
 
 <br/><br/><br/><br/><br/>
 
@@ -96,3 +100,8 @@ async function consumer() {
   }
 }
 ```
+[demo](b-step1600c.js)
+
+<br/>
+
+[next](../1700/a-step1700.md)

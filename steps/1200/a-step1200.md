@@ -35,4 +35,10 @@ additional frames are defined and pushed onto the stack.
 ## Run to Completion
 
 - A message is processed completely (the stack becomes empty) before any other messages are processed.
-- The code cannot be pre-empted.
+- The code cannot be pre-emptied.
+
+[demo](b-step1200a.js)
+
+<br/>
+
+[next](../1250/a-step1250.md)

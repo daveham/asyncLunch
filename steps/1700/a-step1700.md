@@ -20,6 +20,8 @@ function* generator() {
 - the `yield` keyword is used to "return" a value from within the body of the generator
 - the final produced by the generator is whatever it returns on exit
 
+[demo](b-step1700a.js)
+
 <br/><br/><br/><br/><br/>
 
 ### Based on Promises (and the job queue!)
@@ -37,6 +39,8 @@ async function consumer() {
   }
 }
 ```
+
+[demo](b-step1700b.js)
 
 <br/><br/><br/><br/><br/><br/><br/><br/>
 
@@ -63,6 +67,8 @@ async function consumer() {
 }
 ```
 
+[demo](b-step1700c.js)
+
 <br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Composition
@@ -84,5 +90,7 @@ function* generator() {
 }
 
 ```
+
+[demo](b-step1700d.js)
 
 <br/><br/><br/><br/><br/><br/><br/><br/>
