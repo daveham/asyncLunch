@@ -55,7 +55,7 @@ myPromise
   .finally(() => console.log('good or bad, I am here'));
 ```
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 ## Promises can be Chained (but only settled once)
 
@@ -72,9 +72,9 @@ myPromise
   .finally(() => console.log('good or bad, I am here'));
 ```
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
-## Promises can be run in Parallel
+## Promises can run in Parallel
 
 - parallel promises produce parallel results
 - parallel promises can be chained with additional handlers

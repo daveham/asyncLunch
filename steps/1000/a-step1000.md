@@ -1,6 +1,14 @@
-# I Have to Learn Async Why?
+# Async
 
-## JavaScript is Single-Threaded Because it is Safe
+<br/>
+
+![sink.png](sink.png)
+
+<br/></br><br/></br>
+
+## JavaScript is Single-Threaded
+
+<br/>
 
 > Only one thing can happen at a time, on a single main thread,
 > and everything else is blocked until an operation completes.
@@ -15,7 +23,7 @@
 * Many execution stacks -> memory for each thread
 * Context switching -> CPU spent not getting work done
 
-<br/><br/><br/>
+<br/></br><br/></br>
 
 ## JavaScript Hosts
 
