@@ -38,7 +38,7 @@ function addition() {
 }
 ```
 
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 ## Not all callbacks are async
 

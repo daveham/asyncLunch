@@ -2,7 +2,9 @@
   "name": "asyncLunch",
   "version": "1.0.0",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
     "@babel/core": "7.4.3",
+    "@babel/polyfill": "^7.8.7",
     "@babel/register": "^7.9.0",
     "co": "^4.6.0",
     "debug": "^3.1.0",
