@@ -22,5 +22,5 @@ function caller(data) {
   console.log('after');
 }
 
-// caller('hello');
-caller();
+caller('hello');
+// caller();
