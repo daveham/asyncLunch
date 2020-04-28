@@ -8,20 +8,16 @@ function api(data) {
 
 function* generator() {
   let data = yield api('one');
-  console.log('data', data);
+  console.log('data:', data);
 
   data = yield api('two');
-  console.log('data', data);
+  console.log('data:', data);
 
   data = yield api('three');
-  console.log('data', data);
+  console.log('data:', data);
 
   return 'done';
 }
 
-async function consumer() {
-  co(generator())
-    .then((result) => console.log('result from generator', result));
-}
-
-consumer();
+co(generator())
+  .then((result) => console.log('result from generator:', result));

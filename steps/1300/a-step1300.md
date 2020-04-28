@@ -78,9 +78,9 @@ myPromise
   .finally(() => console.log('good or bad, I am here'));
 ```
 
-[demo](b-step1300d.js)
+[demo - simple promise chain](b-step1300d.js)
 <br/>
-[demo](b-step1300e.js)
+[demo - maintain the chain](b-step1300e.js)
 
 
 <br/><br/><br/><br/><br/><br/><br/>

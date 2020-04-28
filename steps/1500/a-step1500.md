@@ -25,7 +25,7 @@ There is more than one queue
 > during the current pass, will be executed at the end of the
 > current pass, and before the start of the next pass.
 
-[demo](b-step1500a.js)
+[demo - messages and event loop](b-step1500a.js)
 
 <br/><br/>
 
@@ -40,6 +40,8 @@ Just like `setTimeout(() => {}, 0)` can be used to add a message to the callback
 > (but with some differences): `process.nextTick()`
 
 > There is an API for explicitly adding a message to the job queue: `queueMicrotask()`
+
+[demo - alternate APIs](b-step1500b.js)
 
 <br/><br/><br/><br/>
 

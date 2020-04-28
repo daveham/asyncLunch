@@ -44,7 +44,7 @@ simple.then((data) => console.log(data));
 
 ## Await
 
-The `await` keyword can only be used in functions declared with teh `async` keyword.
+The `await` keyword can only be used in functions declared with the `async` keyword.
 
 The `await` keyword makes JavaScript wait until the promise settles:
 

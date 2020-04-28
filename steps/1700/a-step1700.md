@@ -15,10 +15,10 @@ function* generator() {
 }
 ```
 
-- generator functions are marked with a `*` after the function
+- generator functions are marked with a `*` after the keyword "function"
 - anonymous functions cannot be used as generators
 - the `yield` keyword is used to "return" a value from within the body of the generator
-- the final produced by the generator is whatever it returns on exit
+- the final value produced by the generator is whatever it returns on exit
 
 [demo](b-step1700a.js)
 
@@ -28,8 +28,8 @@ function* generator() {
 Generators are built on top of promises so you can use promise syntax, `.then(), etc.` and also `async/await` syntax.
 
 ```javascript
-async function* generator() {
-  yield await new Promise(resolve => setTimeout(() => resolve('data'), 2000));
+function* generator() {
+  yield new Promise(resolve => setTimeout(() => resolve('data'), 2000));
 }
 
 async function consumer() {
@@ -54,6 +54,9 @@ a "coroutine" and there are packages that support this.
 
 > In our mobile project we use the redux-sagas library which is based on generators.
 
+This example uses a package named "co" that executes generators as coroutines, in other words, executes them
+to completion.
+
 ```javascript
 function* generator() {
   let data = yield api('one');
@@ -61,7 +64,7 @@ function* generator() {
   data = yield api('two');
 }
 
-async function consumer() {
+function consumer() {
   co(generator())
     .then(() => console.log('done'));
 }

@@ -1,9 +1,9 @@
 
 
-async function* generator() {
-  yield await new Promise(resolve => setTimeout(() => resolve('one'), 2000));
-  yield await new Promise(resolve => setTimeout(() => resolve('two'), 2000));
-  yield await new Promise(resolve => setTimeout(() => resolve('three'), 2000));
+function* generator() {
+  yield new Promise(resolve => setTimeout(() => resolve('one'), 2000));
+  yield new Promise(resolve => setTimeout(() => resolve('two'), 2000));
+  yield new Promise(resolve => setTimeout(() => resolve('three'), 2000));
 }
 
 async function consumer() {

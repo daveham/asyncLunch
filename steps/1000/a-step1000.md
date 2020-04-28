@@ -4,6 +4,10 @@
 
 ![sink.png](sink.png)
 
+<br/>
+
+[(jump to part 2)](../1300/a-step1300.md)
+
 <br/></br><br/></br>
 
 ## JavaScript is Single-Threaded

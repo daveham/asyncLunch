@@ -1,6 +1,10 @@
 {
   "name": "asyncLunch",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": "^6.12.0"
+  },
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "7.4.3",
